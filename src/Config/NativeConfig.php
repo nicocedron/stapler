@@ -14,6 +14,7 @@ class NativeConfig implements ConfigInterface
      */
     protected $items = [
         'stapler' => [
+            'base_url' => null,
             'public_path' => '',
             'base_path' => '',
             'storage' => 'filesystem',
